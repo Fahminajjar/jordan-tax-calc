@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.fullPage {
+    margin-top: 20%;
+  }
+}

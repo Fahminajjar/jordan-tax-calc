@@ -1,0 +1,12 @@
+@import "styles/variables";
+
+.lang {
+  width: 30px;
+  cursor: pointer;
+}
+
+.separator {
+  @media (max-width: $screen-sm-max) {
+    display: none;
+  }
+}

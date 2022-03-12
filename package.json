@@ -1,0 +1,46 @@
+{
+  "name": "jordan-tax-calc",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://Fahminajjar.github.io/jordan-tax-calc",
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "5.1.3",
+    "classnames": "^2.3.1",
+    "i18next": "^21.6.14",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.27.1",
+    "react-i18next": "^11.15.6",
+    "react-scripts": "5.0.0",
+    "sass": "^1.49.9",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
