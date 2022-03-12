@@ -1,0 +1,17 @@
+@import "styles/colors";
+
+.resultItem {
+  width: 50%;
+  padding: 10px;
+  border-top: 1px solid $light;
+
+  &.leftBorder {
+    border-left: 1px solid $light;
+  }
+}
+
+.primaryText {
+  color: $primary;
+  font-weight: 700;
+  font-size: 18px;
+}

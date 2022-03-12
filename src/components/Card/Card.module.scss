@@ -1,0 +1,20 @@
+@import "styles/colors";
+@import "styles/variables";
+
+.card {
+  background: $white;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 50px;
+  box-shadow: $box-shadow;
+}
+
+.title {
+  width: 100%;
+  border-bottom: 1px solid $light;
+  padding-bottom: 20px;
+  font-weight: normal;
+}

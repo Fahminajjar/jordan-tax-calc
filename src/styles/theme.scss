@@ -1,0 +1,8 @@
+@import "./colors";
+
+$theme-colors: (
+        "primary":    $primary,
+        "secondary":  $secondary,
+        "light":      $light,
+        "dark":       $dark
+);

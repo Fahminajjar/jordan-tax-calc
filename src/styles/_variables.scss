@@ -1,0 +1,19 @@
+// Screen sizes (breakpoints)
+$screen-sm-min: 576px;  // Small tablets and large smartphones (landscape view)
+$screen-md-min: 768px;  // Small tablets (portrait view)
+$screen-lg-min: 992px;  // Tablets and small desktops
+$screen-xl-min: 1200px; // Large tablets and desktops
+
+$screen-sm-max: $screen-md-min - 1px;
+$screen-md-max: $screen-lg-min - 1px;
+$screen-lg-max: $screen-xl-min - 1px;
+
+$mobile-max:  $screen-sm-min - 1px;
+$tablet-max:  $screen-lg-min - 1px;
+$desktop-max: $screen-xl-min - 1px;
+
+$font-family: 'Open Sans', sans-serif;
+
+$font-size-base: 16px;
+
+$box-shadow: 0 1px 3px #d5d5d5, 0 1px 2px #d5d5d5;

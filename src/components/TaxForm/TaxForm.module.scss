@@ -1,0 +1,29 @@
+@import "styles/colors";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.grossInput {
+  &:focus {
+    box-shadow: unset !important;
+    border-color: $success !important;
+  }
+}
+
+.errorText {
+  width: 100%;
+  color: $danger !important;
+}
+
+.calculateBtn {
+  width: 100%;
+}
+
+.rtlInput {
+  flex-direction: row-reverse;
+}

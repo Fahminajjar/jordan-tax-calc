@@ -1,0 +1,47 @@
+{
+  "header": {
+    "title": "Jordan Income Tax Calculator"
+  },
+  "home": {
+    "title": "Calculate your income tax",
+    "informationTitle": "Information",
+    "exemptionInfoPart1": "You have a personal exemption of",
+    "exemptionInfoPart2": "on your annual income (750 JOD on your monthly income).",
+    "exemptionInfoAmount": "9000 JOD"
+  },
+  "taxForm": {
+    "grossPlaceholder": "Monthly gross salary (e.g. 1000)",
+    "grossRequired": "Gross salary is required",
+    "familyLabel": "Family exemption (married to a non-working spouse)",
+    "calculate": "Calculate"
+  },
+  "taxResult": {
+    "title": "Result:",
+    "monthlyTax": "Tax per month",
+    "taxPercentage": "Tax percentage",
+    "socialSecurity": "Social Security",
+    "netSalary": "Net Salary"
+  },
+  "information": {
+    "gross": {
+      "title": "Gross salary",
+      "description": "Amount of money before taxes and deductions (income before tax)"
+    },
+    "net": {
+      "title": "Net salary",
+      "description": "Amount of money after taxes and deductions (income after tax)"
+    },
+    "tax": {
+      "title": "Tax per month",
+      "description": "Amount of money to be paid as income tax"
+    },
+    "taxPercentage": {
+      "title": "Tax percentage",
+      "description": "The tax percentage of the gross salary"
+    },
+    "socialSecurity": {
+      "title": "Social Security",
+      "description": "Amount of money to be paid for social insurance (7.5% - mandatory for Jordanians)"
+    }
+  }
+}
