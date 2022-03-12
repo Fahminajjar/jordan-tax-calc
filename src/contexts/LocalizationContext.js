@@ -54,7 +54,7 @@ const LocalizationContextProvider = ({ children }) => {
 
   useEffect(() => {
     initLang();
-  }, []);
+  }, [initLang]);
 
   const state = { isInit, language, direction, changeLanguage };
 
