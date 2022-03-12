@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jordan-tax-calc/static/css/main.afd4f601.css",
+    "main.js": "/jordan-tax-calc/static/js/main.d1370aab.js",
+    "static/js/787.09a9ead4.chunk.js": "/jordan-tax-calc/static/js/787.09a9ead4.chunk.js",
+    "static/media/jordanMap.png": "/jordan-tax-calc/static/media/jordanMap.8bae63a21d7b947ab532.png",
+    "index.html": "/jordan-tax-calc/index.html",
+    "main.afd4f601.css.map": "/jordan-tax-calc/static/css/main.afd4f601.css.map",
+    "main.d1370aab.js.map": "/jordan-tax-calc/static/js/main.d1370aab.js.map",
+    "787.09a9ead4.chunk.js.map": "/jordan-tax-calc/static/js/787.09a9ead4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afd4f601.css",
+    "static/js/main.d1370aab.js"
+  ]
+}
