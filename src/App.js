@@ -4,11 +4,11 @@ import Loading from "components/Loading/Loading";
 import { LocalizationContext } from "contexts/LocalizationContext";
 
 const App = () => {
-  const { isInit: isLocalizationInit, direction } = useContext(LocalizationContext);
+  const { isInit: isLocalizationInit, direction, language } = useContext(LocalizationContext);
 
   return (
     <Loading isLoading={!isLocalizationInit} fullPage>
-      <main dir={direction}>
+      <main className={`main${language.toUpperCase()}`} dir={direction}>
         <HomePage />
       </main>
     </Loading>

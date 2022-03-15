@@ -3,12 +3,21 @@
 @import "overrides";
 @import "variables";
 @import "colors";
+@import "fonts";
 
 body {
   margin: 0;
-  font-family: $font-family;
+  font-family: $font-family-en;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: $body-bg;
   font-size: $font-size-base;
+}
+
+.mainAR {
+  font-family: $font-family-ar;
+}
+
+.mainEN {
+  font-family: $font-family-en;
 }
