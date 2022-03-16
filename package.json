@@ -2,7 +2,7 @@
   "name": "jordan-tax-calc",
   "version": "1.0.0",
   "private": false,
-  "homepage": "https://Fahminajjar.github.io/jordan-tax-calc",
+  "homepage": "https://jordantaxcalc.com/",
   "dependencies": {
     "@craco/craco": "^6.4.3",
     "@testing-library/jest-dom": "^5.16.2",
