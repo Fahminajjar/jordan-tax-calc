@@ -5,7 +5,7 @@ import translationsAR from "translations/ar.json";
 import translationsEN from "translations/en.json";
 import { DEFAULT_LANG, LANG_STORAGE_KEY } from "utils/constants";
 
-const savedLang = localStorage.getItem(LANG_STORAGE_KEY);
+const savedLang = localStorage.getItem(LANG_STORAGE_KEY) ?? "en";
 
 const INITIAL_STATE = {
   isInit: false,
