@@ -4,6 +4,7 @@ import Header from "components/Header/Header";
 import TaxForm from "components/TaxForm/TaxForm";
 import TaxResult from "components/TaxResult/TaxResult";
 import TaxInfo from "components/TaxInfo/TaxInfo";
+import GoogleAdSquare from "components/GoogleAdSquare/GoogleAdSquare";
 import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -59,6 +60,8 @@ const HomePage = () => {
           </Col>
 
           <Col sm={4}>
+            <GoogleAdSquare />
+
             <Card>
               <Card.Title>{t("home.informationTitle")}</Card.Title>
               <p className="mb-0">
