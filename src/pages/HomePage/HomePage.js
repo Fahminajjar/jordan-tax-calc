@@ -4,11 +4,12 @@ import Header from "components/Header/Header";
 import TaxForm from "components/TaxForm/TaxForm";
 import TaxResult from "components/TaxResult/TaxResult";
 import TaxInfo from "components/TaxInfo/TaxInfo";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useTranslation } from "react-i18next";
+import ReactGA from "react-ga4";
 import { calculateTax } from "utils/calculator";
 
 import styles from "./HomePage.module.scss";
@@ -32,7 +33,16 @@ const HomePage = () => {
       isVisible: grossFloat > 0.0,
       ...calculateTax({ gross: grossFloat, isFamily: data.isFamily }),
     });
+
+    ReactGA.event("calculate", {
+      gross: grossFloat,
+      family_exemption: data.isFamily,
+    });
   }
+
+  useEffect(() => {
+    ReactGA.send("pageview");
+  }, []);
 
   return (
     <section className={styles.page}>
