@@ -35,6 +35,13 @@ const HomePage = () => {
       ...calculateTax({ gross: grossFloat, isFamily: data.isFamily }),
     });
 
+    ReactGA.event({
+      category: "calculate",
+      action: "submit",
+      label: "Gross",
+      value: grossFloat,  // This sends the gross amount as an event value
+    });
+
     ReactGA.event("calculate", {
       gross: grossFloat,
       family_exemption: data.isFamily,
