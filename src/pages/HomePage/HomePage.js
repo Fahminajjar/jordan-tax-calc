@@ -31,21 +31,39 @@ const HomePage = () => {
 
   const onFormSubmit = data => {
     const grossFloat = parseFloat(data.gross);
+    
+    if (grossFloat <= 0 || isNaN(grossFloat)) {
+      setResult(INITIAL_RESULT_STATE);
+      return;
+    }
+
+    const calculationResult = calculateTax({
+      gross: grossFloat,
+      isFamily: data.isFamily,
+      numberOfChildren: parseInt(data.numberOfChildren) || 0,
+      hasDisability: data.hasDisability,
+      additionalExpenses: parseFloat(data.additionalExpenses) || 0,
+      isJordanian: data.isJordanian,
+    });
+
     setResult({
-      isVisible: grossFloat > 0.0,
-      ...calculateTax({ gross: grossFloat, isFamily: data.isFamily }),
+      isVisible: true,
+      ...calculationResult,
     });
 
     ReactGA.event({
       category: "calculate",
       action: "submit",
       label: "Gross",
-      value: grossFloat,  // This sends the gross amount as an event value
+      value: grossFloat,
     });
 
     ReactGA.event("calculate", {
       gross: grossFloat,
       family_exemption: data.isFamily,
+      children: parseInt(data.numberOfChildren) || 0,
+      disability: data.hasDisability,
+      jordanian: data.isJordanian,
     });
   }
 
