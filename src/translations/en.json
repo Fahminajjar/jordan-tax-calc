@@ -13,7 +13,14 @@
   "taxForm": {
     "grossPlaceholder": "Monthly gross salary (e.g. 1000)",
     "grossRequired": "Gross salary is required",
+    "exemptionsTitle": "Exemptions",
     "familyLabel": "Family exemption (married to a non-working spouse)",
+    "childrenLabel": "Children",
+    "disabilityLabel": "Disability exemption (JOD 2,000)",
+    "expensesLabel": "Expenses",
+    "expensesHint": "Medical, education, rent, housing interest (max 1000 JOD)",
+    "socialSecurityTitle": "Social Security",
+    "jordanianLabel": "Jordanian citizen (7.5% social security)",
     "calculate": "Calculate"
   },
   "taxResult": {
@@ -21,7 +28,19 @@
     "monthlyTax": "Tax per month",
     "taxPercentage": "Tax percentage",
     "socialSecurity": "Social Security",
-    "netSalary": "Net Salary"
+    "netSalary": "Net Salary",
+    "showDetails": "Show detailed breakdown",
+    "hideDetails": "Hide details",
+    "annualBreakdown": "Annual Income Breakdown",
+    "annualGross": "Annual Gross Income",
+    "totalExemptions": "Total Exemptions",
+    "taxableIncome": "Taxable Income",
+    "taxBreakdown": "Tax & Deductions",
+    "annualIncomeTax": "Annual Income Tax",
+    "nationalContribution": "National Contribution (1%)",
+    "annualSocialSecurity": "Annual Social Security",
+    "annualNet": "Annual Net Income",
+    "effectiveRate": "Effective Tax Rate (inc. Social Security)"
   },
   "information": {
     "gross": {

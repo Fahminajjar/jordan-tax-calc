@@ -15,3 +15,97 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.detailsToggle {
+  width: 100%;
+  background: none;
+  border: none;
+  color: $primary;
+  padding: 15px 0;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: darken($primary, 10%);
+  }
+}
+
+.toggleIcon {
+  font-size: 0.7rem;
+}
+
+.detailsSection {
+  background-color: rgba($light, 0.3);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.sectionTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: $dark;
+  margin-bottom: 12px;
+}
+
+.detailsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detailRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: $white;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  
+  &.highlighted {
+    background-color: rgba($primary, 0.05);
+    font-weight: 600;
+  }
+}
+
+.detailValue {
+  font-weight: 500;
+}
+
+.detailValueGreen {
+  font-weight: 500;
+  color: $success;
+}
+
+.detailValueRed {
+  font-weight: 500;
+  color: $danger;
+}
+
+.detailValuePrimary {
+  font-weight: 600;
+  color: $primary;
+  font-size: 1rem;
+}
+
+.effectiveRate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: linear-gradient(135deg, rgba($primary, 0.1), rgba($secondary, 0.1));
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.effectiveRateValue {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: $primary;
+}

@@ -13,15 +13,34 @@
   "taxForm": {
     "grossPlaceholder": "الراتب الإجمالي الشهري (على سبيل المثال: 1000)",
     "grossRequired": "الراتب الإجمالي مطلوب",
+    "exemptionsTitle": "الإعفاءات",
     "familyLabel": "إعفاء عائلي (متزوج من زوجة لا تعمل)",
+    "childrenLabel": "عدد الأطفال",
+    "disabilityLabel": "إعفاء الإعاقة (2,000 دينار)",
+    "expensesLabel": "المصاريف",
+    "expensesHint": "المصاريف الطبية والتعليم والإيجار وفوائد السكن (بحد أقصى 1000 دينار)",
+    "socialSecurityTitle": "الضمان الاجتماعي",
+    "jordanianLabel": "مواطن أردني (7.5% ضمان اجتماعي)",
     "calculate": "احسب"
   },
   "taxResult": {
     "title": "النتيجة:",
-    "monthlyTax": "الضريبة في الشهر",
+    "monthlyTax": "الضريبة الشهرية",
     "taxPercentage": "نسبة الضريبة",
     "socialSecurity": "الضمان الاجتماعي",
-    "netSalary": "صافي الراتب"
+    "netSalary": "صافي الراتب",
+    "showDetails": "عرض التفاصيل",
+    "hideDetails": "إخفاء التفاصيل",
+    "annualBreakdown": "تفصيل الدخل السنوي",
+    "annualGross": "الدخل السنوي الإجمالي",
+    "totalExemptions": "إجمالي الإعفاءات",
+    "taxableIncome": "الدخل الخاضع للضريبة",
+    "taxBreakdown": "الضرائب والخصومات",
+    "annualIncomeTax": "ضريبة الدخل السنوية",
+    "nationalContribution": "المساهمة الوطنية (1%)",
+    "annualSocialSecurity": "الضمان الاجتماعي السنوي",
+    "annualNet": "صافي الدخل السنوي",
+    "effectiveRate": "نسبة الضريبة الفعلية (شاملة الضمان الاجتماعي)"
   },
   "information": {
     "gross": {
