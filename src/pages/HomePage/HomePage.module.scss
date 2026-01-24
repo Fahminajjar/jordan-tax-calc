@@ -3,3 +3,17 @@
 .page {
   padding-bottom: 100px;
 }
+
+.taxRulesLink {
+  display: inline-block;
+  color: $primary;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 0;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: darken($primary, 10%);
+    text-decoration: underline;
+  }
+}

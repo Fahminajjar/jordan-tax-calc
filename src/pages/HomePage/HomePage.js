@@ -10,6 +10,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import ReactGA from "react-ga4";
 import { calculateTax } from "utils/calculator";
 
@@ -76,6 +77,10 @@ const HomePage = () => {
               </p>
               <HorizontalLine />
               <TaxInfo />
+              <HorizontalLine />
+              <Link to="/tax-rules" className={styles.taxRulesLink}>
+                {t("home.viewTaxRules")} →
+              </Link>
             </Card>
           </Col>
         </Row>
