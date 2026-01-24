@@ -46,6 +46,8 @@ const TaxRulesPage = () => {
           <Col lg={12}>
             <div className={styles.backLink}>
               <Link to="/">← {t("taxRules.backToCalculator")}</Link>
+              <span className={styles.separator}>|</span>
+              <Link to="/tax-filing">{t("taxRules.viewTaxFiling")} →</Link>
             </div>
           </Col>
         </Row>

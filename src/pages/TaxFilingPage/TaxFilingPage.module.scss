@@ -1,0 +1,267 @@
+@import "styles/colors";
+@import "styles/variables";
+
+.page {
+  padding-bottom: 100px;
+}
+
+.backLink {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+  a {
+    color: $primary;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: darken($primary, 10%);
+      text-decoration: underline;
+    }
+  }
+}
+
+.separator {
+  color: $light;
+}
+
+.description {
+  color: $dark;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+// Deadline Box
+.deadlineBox {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba($primary, 0.05), rgba($secondary, 0.05));
+  border-radius: 12px;
+  border-left: 4px solid $primary;
+}
+
+.deadlineDate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 25px;
+  background: $primary;
+  border-radius: 8px;
+  color: $white;
+  min-width: 100px;
+}
+
+.deadlineDay {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.deadlineMonth {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.deadlineInfo {
+  flex: 1;
+}
+
+.deadlineText {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.deadlineNote {
+  color: lighten($dark, 20%);
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+// Table
+.table {
+  margin-top: 15px;
+  
+  thead {
+    th {
+      background-color: $primary;
+      color: $white;
+      font-weight: 500;
+      border-color: darken($primary, 5%);
+    }
+  }
+}
+
+.portalName {
+  font-weight: 600;
+}
+
+.portalLink {
+  color: $primary;
+  text-decoration: none;
+  font-weight: 500;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Steps
+.stepsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 15px;
+  background-color: $white;
+  border: 1px solid $light;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    border-color: $primary;
+    box-shadow: 0 2px 8px rgba($primary, 0.1);
+  }
+}
+
+.stepNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: $primary;
+  color: $white;
+  border-radius: 50%;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.stepContent {
+  flex: 1;
+}
+
+.stepTitle {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: $dark;
+}
+
+.stepDescription {
+  font-size: 0.9rem;
+  color: lighten($dark, 20%);
+  margin-bottom: 0;
+}
+
+// Sidebar Styles
+.subTitle {
+  font-weight: 600;
+  color: $dark;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.checkList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  
+  li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    
+    &:before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: $success;
+      font-weight: bold;
+    }
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.bulletList {
+  padding-left: 20px;
+  margin-bottom: 0;
+  
+  li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.exemptList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  
+  li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 8px;
+    color: $success;
+    
+    &:before {
+      content: "○";
+      position: absolute;
+      left: 5px;
+    }
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Advance Payments
+.advancePayments {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.advanceItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: rgba($light, 0.5);
+  border-radius: 6px;
+}
+
+.advanceLabel {
+  font-weight: 500;
+}
+
+.advanceDate {
+  color: $primary;
+  font-weight: 600;
+}
+
+.smallText {
+  font-size: 0.85rem;
+  color: lighten($dark, 25%);
+  margin-bottom: 0;
+}

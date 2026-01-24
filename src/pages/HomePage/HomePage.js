@@ -96,9 +96,14 @@ const HomePage = () => {
               <HorizontalLine />
               <TaxInfo />
               <HorizontalLine />
-              <Link to="/tax-rules" className={styles.taxRulesLink}>
-                {t("home.viewTaxRules")} →
-              </Link>
+              <div className={styles.pageLinks}>
+                <Link to="/tax-rules" className={styles.taxRulesLink}>
+                  {t("home.viewTaxRules")} →
+                </Link>
+                <Link to="/tax-filing" className={styles.taxRulesLink}>
+                  {t("home.viewTaxFiling")} →
+                </Link>
+              </div>
             </Card>
           </Col>
         </Row>

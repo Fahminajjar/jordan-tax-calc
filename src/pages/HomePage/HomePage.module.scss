@@ -4,12 +4,18 @@
   padding-bottom: 100px;
 }
 
+.pageLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .taxRulesLink {
   display: inline-block;
   color: $primary;
   text-decoration: none;
   font-weight: 500;
-  padding: 10px 0;
+  padding: 8px 0;
   transition: color 0.2s ease;
   
   &:hover {

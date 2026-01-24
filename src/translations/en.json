@@ -8,7 +8,8 @@
     "exemptionInfoPart1": "You have a personal exemption of",
     "exemptionInfoPart2": "on your annual income (750 JOD on your monthly income).",
     "exemptionInfoAmount": "9000 JOD",
-    "viewTaxRules": "View Tax Rules & Brackets"
+    "viewTaxRules": "View Tax Rules & Brackets",
+    "viewTaxFiling": "How to File Tax Return"
   },
   "taxForm": {
     "grossPlaceholder": "Monthly gross salary (e.g. 1000)",
@@ -66,6 +67,7 @@
   },
   "taxRules": {
     "backToCalculator": "Back to Calculator",
+    "viewTaxFiling": "How to File",
     "bracketsTitle": "Income Tax Brackets",
     "bracketsDescription": "Jordan uses a progressive tax system where different portions of your income are taxed at different rates. The rates apply to your annual taxable income after exemptions.",
     "incomeRange": "Annual Income Range",
@@ -99,5 +101,97 @@
     },
     "residencyTitle": "Tax Residency",
     "residencyDescription": "An individual is considered a tax resident if present in Jordan for 183 days or more in a calendar year. Both residents and non-residents are taxed only on income sourced in Jordan."
+  },
+  "taxFiling": {
+    "backToCalculator": "Back to Calculator",
+    "viewTaxRules": "View Tax Rules",
+    "deadlineTitle": "Filing Deadline",
+    "april": "April",
+    "deadlineDescription": "Personal income tax returns must be filed before April 30th each year.",
+    "deadlineNote": "The same deadline applies for final payment of taxes owed.",
+    "portalsTitle": "Online Tax Portals",
+    "portalsDescription": "Jordan offers several online platforms for tax filing and payment. These e-government services make it easy to file and pay taxes from anywhere.",
+    "portal": "Portal",
+    "purpose": "Purpose",
+    "link": "Link",
+    "visitSite": "Visit Site",
+    "portals": {
+      "istd": {
+        "name": "ISTD Main Site",
+        "purpose": "Official information, forms, and announcements"
+      },
+      "etax": {
+        "name": "eTax Portal",
+        "purpose": "Online tax filing and submission"
+      },
+      "efawateer": {
+        "name": "eFawateercom",
+        "purpose": "Electronic bill payment for taxes"
+      }
+    },
+    "stepsTitle": "How to File Your Tax Return",
+    "stepsDescription": "Follow these steps to file your income tax return online through the eTax portal:",
+    "steps": {
+      "register": {
+        "title": "Create an Account",
+        "description": "Register on the eTax portal (etax.istd.gov.jo) using your national ID number."
+      },
+      "login": {
+        "title": "Log In to the Portal",
+        "description": "Access your account and navigate to the tax return section."
+      },
+      "fill": {
+        "title": "Fill the Tax Return Form",
+        "description": "Enter your income details, exemptions, and deductions for the tax year."
+      },
+      "review": {
+        "title": "Review Your Information",
+        "description": "Double-check all entered information and calculated tax amounts."
+      },
+      "submit": {
+        "title": "Submit the Return",
+        "description": "Submit your completed tax return electronically through the portal."
+      },
+      "pay": {
+        "title": "Pay Any Tax Due",
+        "description": "If you owe tax, pay through eFawateercom or at authorized banks."
+      }
+    },
+    "employeesTitle": "For Employees",
+    "employeesDescription": "If you work for a single employer, your company handles most tax obligations on your behalf.",
+    "employerDoes": "Your employer:",
+    "employerTasks": {
+      "withhold": "Withholds tax monthly from your salary",
+      "submit": "Submits the tax to ISTD on your behalf",
+      "certificate": "Provides you with an annual tax certificate"
+    },
+    "whenToFile": "You may still need to file if:",
+    "fileWhen": {
+      "additionalIncome": "You have additional income sources",
+      "claimExemptions": "You want to claim additional exemptions",
+      "exceedExemptions": "Your total exemptions exceed employer's calculation"
+    },
+    "advanceTitle": "Advance Payments",
+    "advanceDescription": "For taxpayers with gross income exceeding JOD 1 million in the previous year:",
+    "firstPayment": "1st Payment",
+    "secondPayment": "2nd Payment",
+    "byJuly30": "By July 30",
+    "byJan30": "By January 30",
+    "advanceNote": "Advance payments are required within 30 days after each half-year period ends.",
+    "reportTitle": "What to Report",
+    "taxableIncome": "Taxable Income:",
+    "report": {
+      "salaries": "Salaries, wages, allowances, bonuses",
+      "business": "Business and self-employment income",
+      "rental": "Rental income from properties",
+      "interest": "Interest and investment income"
+    },
+    "exemptIncome": "Exempt Income:",
+    "exempt": {
+      "dividends": "Dividends from Jordanian companies",
+      "inheritance": "Inheritance distributions",
+      "insurance": "Insurance compensation",
+      "pension": "First JOD 2,500 of monthly pension"
+    }
   }
 }

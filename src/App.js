@@ -2,6 +2,7 @@ import Loading from "components/Loading/Loading";
 import { LocalizationContext } from "contexts/LocalizationContext";
 import HomePage from "pages/HomePage/HomePage";
 import TaxRulesPage from "pages/TaxRulesPage/TaxRulesPage";
+import TaxFilingPage from "pages/TaxFilingPage/TaxFilingPage";
 import { useContext } from "react";
 import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
@@ -18,6 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/tax-rules" element={<TaxRulesPage />} />
+          <Route path="/tax-filing" element={<TaxFilingPage />} />
         </Routes>
       </main>
     </Loading>
