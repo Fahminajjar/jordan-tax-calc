@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import LocalizationContextProvider from "contexts/LocalizationContext";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -8,9 +9,11 @@ import "styles/main.scss";
 
 ReactDOM.render(
   <React.StrictMode>
-    <LocalizationContextProvider>
-      <App />
-    </LocalizationContextProvider>
+    <BrowserRouter>
+      <LocalizationContextProvider>
+        <App />
+      </LocalizationContextProvider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -7,7 +7,8 @@
     "informationTitle": "Information",
     "exemptionInfoPart1": "You have a personal exemption of",
     "exemptionInfoPart2": "on your annual income (750 JOD on your monthly income).",
-    "exemptionInfoAmount": "9000 JOD"
+    "exemptionInfoAmount": "9000 JOD",
+    "viewTaxRules": "View Tax Rules & Brackets"
   },
   "taxForm": {
     "grossPlaceholder": "Monthly gross salary (e.g. 1000)",
@@ -43,5 +44,41 @@
       "title": "Social Security",
       "description": "Amount of money to be paid for social insurance (7.5% - mandatory for Jordanians)"
     }
+  },
+  "taxRules": {
+    "backToCalculator": "Back to Calculator",
+    "bracketsTitle": "Income Tax Brackets",
+    "bracketsDescription": "Jordan uses a progressive tax system where different portions of your income are taxed at different rates. The rates apply to your annual taxable income after exemptions.",
+    "incomeRange": "Annual Income Range",
+    "taxRate": "Tax Rate",
+    "jod": "JOD",
+    "over": "Over",
+    "note": "Note",
+    "nationalContribution": "An additional 1% national contribution tax applies for individuals with income exceeding JOD 200,000 annually.",
+    "exemptionsTitle": "Personal Exemptions",
+    "exemptionsDescription": "These amounts are deducted from your gross annual income before calculating the tax.",
+    "exemptionType": "Exemption Type",
+    "annualAmount": "Annual Amount",
+    "exemptions": {
+      "individual": "Personal exemption (single)",
+      "family": "Family exemption (married with non-working spouse)",
+      "expenses": "Medical, education, rent & housing interest",
+      "spouse": "Spouse allowance",
+      "child": "Per child (maximum 3 children)",
+      "maxFamily": "Maximum family exemption ceiling"
+    },
+    "socialSecurityTitle": "Social Security Contribution",
+    "socialSecurityDescription": "Employee contribution rate for social security insurance.",
+    "socialSecurityNote": "This is mandatory for Jordanian employees and is deducted from your monthly salary.",
+    "exemptIncomeTitle": "Exempt Income Types",
+    "exemptIncome": {
+      "pension": "First JOD 2,500 of monthly pension salary",
+      "disability": "JOD 2,000 annual exemption for people with disabilities",
+      "insurance": "Insurance compensation (except loss-of-income)",
+      "diplomatic": "Income of diplomatic and consular staff",
+      "inheritance": "Inheritance and estate distributions"
+    },
+    "residencyTitle": "Tax Residency",
+    "residencyDescription": "An individual is considered a tax resident if present in Jordan for 183 days or more in a calendar year. Both residents and non-residents are taxed only on income sourced in Jordan."
   }
 }

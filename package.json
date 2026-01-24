@@ -16,6 +16,7 @@
     "react-ga4": "^1.4.1",
     "react-hook-form": "^7.27.1",
     "react-i18next": "^11.15.6",
+    "react-router-dom": "^6.30.3",
     "react-scripts": "5.0.0",
     "sass": "^1.49.9",
     "web-vitals": "^2.1.4"
