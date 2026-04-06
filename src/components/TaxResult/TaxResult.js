@@ -16,7 +16,7 @@ const TaxResult = ({ result }) => {
       {/* Primary Results - Monthly */}
       <div className={styles.resultItems}>
         <ResultItem title={t("taxResult.monthlyTax")} value={`${result.tax} JOD`} />
-        <ResultItem title={t("taxResult.taxPercentage")} value={`${(result.percentage * 100).toFixed(1)}%`} leftBorder />
+        <ResultItem title={t("taxResult.taxPercentage")} value={`${(result.percentage * 100).toFixed(2)}%`} leftBorder />
         <ResultItem title={t("taxResult.socialSecurity")} value={`${result.socialSecurity} JOD`} />
         <ResultItem title={t("taxResult.netSalary")} value={`${result.net} JOD`} leftBorder />
       </div>

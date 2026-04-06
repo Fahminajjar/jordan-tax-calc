@@ -2,7 +2,6 @@ import {
   FAMILY_TAX_FREE,
   INDIVIDUAL_TAX_FREE,
   SOCIAL_SECURITY_PERCENTAGE,
-  SPOUSE_ALLOWANCE,
   CHILD_ALLOWANCE,
   MAX_CHILDREN,
   EXPENSES_ALLOWANCE,
@@ -25,13 +24,8 @@ const calculateTotalExemptions = ({
   hasDisability,
   additionalExpenses,
 }) => {
-  // Base exemption (individual or family)
+  // Base exemption (individual or family); FAMILY_TAX_FREE already covers both spouses
   let totalExemption = isFamily ? FAMILY_TAX_FREE : INDIVIDUAL_TAX_FREE;
-
-  // Spouse allowance (only if married/family)
-  if (isFamily) {
-    totalExemption += SPOUSE_ALLOWANCE;
-  }
 
   // Children allowance (max 3 children)
   const childrenCount = Math.min(numberOfChildren || 0, MAX_CHILDREN);
@@ -134,7 +128,7 @@ export const calculateTax = ({
 
   return {
     // Monthly values
-    tax: toTwoDecimalPlaces(monthlyTax),
+    tax: toThreeFloatingPoints(monthlyTax),
     socialSecurity: toTwoDecimalPlaces(socialSecurity),
     net: toTwoDecimalPlaces(netSalary),
     
