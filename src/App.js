@@ -1,3 +1,4 @@
+import CanonicalTag from "components/CanonicalTag/CanonicalTag";
 import Loading from "components/Loading/Loading";
 import { LocalizationContext } from "contexts/LocalizationContext";
 import HomePage from "pages/HomePage/HomePage";
@@ -15,6 +16,7 @@ const App = () => {
 
   return (
     <Loading isLoading={!isLocalizationInit} fullPage>
+      <CanonicalTag />
       <main className={`main${language.toUpperCase()}`} dir={direction}>
         <Routes>
           <Route path="/" element={<HomePage />} />
